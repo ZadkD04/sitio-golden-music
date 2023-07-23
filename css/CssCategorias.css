@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(89, 92, 94);
+}
+.fl3x {
+    display: flex;
+    justify-content: start;
+}
+.nav {
+    box-shadow: 0 15px 0 0 #FFD700, 0 20px 10px 0 #0f0e0e;
+}
+.nav .btn:active {
+    background-color: #FFD700;
+}
+.btn-dark {
+    background-color: #000;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+}
+.img-cost {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.container {
+    background-color:#D4AF37;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px -5px #0f0e0e;
+}
+.menu {
+    height: 150px;
+    padding: 10px;
+    background-color: #0f0e0e;
+    box-shadow: 0 10px 20px -5px #0f0e0e;
+}
+.fw-lighter {
+    color: #D4AF37;
+}
+.fw-lighter:hover {
+    color: #FFD700;
+}
+.enlace {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+.enlace:hover {
+    color: #FFD700;
+}
+.enlace:active {
+    color: #e41212;
+}
+.bg-dark {
+    box-shadow: inset 0 10px 10px 0 #7a7777;
+}
+.card {
+    box-shadow: 0 5px 10px -5px #0f0e0e;
+}
+.card-body img {
+    box-shadow: 0 5px 10px -5px #0f0e0e;
+}
+.dominio {
+    font-size: small;
+}
